@@ -10,7 +10,17 @@ import BodyText from "@/components/typography/BodyText";
 import Accordion from "./Accordion";
 
 const imagePath = (img: string) => `/images/home${img}`;
-export const benefitsCardData = [
+
+
+interface BenefitCard {
+  title: string;
+  subtitle: string;
+  image: string;
+  content: string;
+  isComingSoon: boolean;
+}
+
+const benefitsCardData: BenefitCard[] = [
   {
     title: "token",
     subtitle: "The Gateway token to the world of AI",
@@ -34,7 +44,7 @@ export const benefitsCardData = [
   },
 ];
 
-export const benefitsCardDataLG = [
+const benefitsCardDataLG = [
   {
     title: "token",
     subtitle: "Empowering NFT Holders and Shaping AI Development",
@@ -58,7 +68,7 @@ export const benefitsCardDataLG = [
   },
 ];
 
-export const marketCardData = [
+const marketCardData = [
   {
     title: "AI Prospects, Market Size, and Development Pace",
     content: `The AI market is one of the most dynamically growing areas of technology. According to reports, the global AI market is expected to reach $190.61 billion by 2025, with a CAGR (Compound Annual Growth Rate) of 36.6%. The key drivers behind this growth include advancements in machine learning, increasing demand for big data analytics, and growing adoption of AI technology across various sectors such as healthcare, finance, and transportation.`,
@@ -411,13 +421,6 @@ const ImageBox = ({
   );
 };
 
-type BenefitsCardProps = {
-  title: string;
-  subtitle: string;
-  image: string;
-  content: string;
-  isComingSoon?: boolean;
-};
 
 const BenefitsCard = ({
   title,
@@ -425,7 +428,7 @@ const BenefitsCard = ({
   image,
   content,
   isComingSoon,
-}: BenefitsCardProps) => {
+}: BenefitCard) => {
   const transitionClasses = "transform transition-all ease-in duration-200";
 
   return (

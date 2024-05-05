@@ -24,8 +24,8 @@ const monumentExtendedRegular = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Creon',
-    description: 'Creon',
+    title: 'creon',
+    description: "The world's first platform for tokenizing ai blockchain projects",
 };
 
 export default function RootLayout({

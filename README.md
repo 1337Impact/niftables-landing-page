@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Figma Design Integration - Front-End Technical Test
 
-## Getting Started
+This project is a part of a front-end development technical test aimed at showcasing pixel-perfect integration of a provided Figma design using NextJS, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The goal of this project is to replicate a provided Figma design accurately, demonstrating proficiency in HTML semantics, CSS usage, React component structure, and responsiveness using the NextJS framework.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** NextJS 14 App Directory
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Evaluation Criteria
 
-## Learn More
+1. **HTML Semantics**: Utilizing appropriate HTML5 tags to structure the content meaningfully.
+2. **CSS Usage and Structure**: Demonstrating efficient and organized CSS.
+3. **React Component Structure**: Effective organization and composition of React components.
+4. **Pixel Perfect Integration**: Ensuring the visual output closely matches the Figma design.
+5. **Responsiveness**: Implementing a fully responsive design that adapts to different screen sizes.
+6. **Project Structure**: Maintaining a logical and clean structure of project files and directories.
+7. **Component Widgets Implementation**: Incorporating functional UI elements like slideshows, dropdowns, etc.
+8. **Image Optimization**: Ensuring images are optimized for web performance without loss of quality.
 
-To learn more about Next.js, take a look at the following resources:
+## Local Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To set up this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/1337Impact/niftables-landing-page
+1. Install dependencies:
+   ```bash
+   npm install
+1. Start the development server:
+   ```bash
+   npm run dev
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is deployed on [Vercel](https://vercel.com/). Visit the deployed application [here](https://your-deployed-application-url).
