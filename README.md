@@ -39,4 +39,4 @@ To set up this project locally, follow these steps:
 
 ## Deployment
 
-This project is deployed on [Vercel](https://vercel.com/). Visit the deployed application [here](https://your-deployed-application-url).
+This project is deployed on [Vercel](https://vercel.com/). Visit the deployed application [here](https://niftables-landing-page-6nor.vercel.app/).
